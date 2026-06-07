@@ -1,0 +1,48 @@
+1. Introduction
+Social engineering is fundamentally the "art of persuasion." Unlike traditional cyberattacks that look for gaps in software code or exploit unpatched firewalls, social engineering targets human psychology. It relies on manipulating people into dropping their guard, trusting a false narrative, and ultimately taking an action they would not normally take, such as transferring money or revealing confidential information.
+
+While this used to mean basic phishing emails with bad grammar, attackers today are combining psychological manipulation with generative artificial intelligence. A clear example of this is the August 2024 scam involving Malaysian content creator and entrepreneur, Khairul Aming. By using AI to clone his voice and facial movements, scammers built a highly convincing trap that shows exactly how dangerous modern social engineering has become.
+
+2. Case Overview
+In August 2024, a video went viral across social media platforms like Facebook. The video showed what appeared to be Khairul Aming announcing an emergency warehouse clearance sale. The story cooked up by the scammers was that his factory had been severely impacted by a flash flood, ruining his stock.
+
+To bounce back from the massive financial loss, the deepfaked video urged his followers to click an attached link to buy premium kitchen woks at a massive discount. Because the video matched his exact voice, local accent, and usual on camera energy, thousands of loyal fans fell for it. They thought they were helping out a favorite local creator during a crisis. Instead, the link sent them to a fake e commerce checkout page designed to steal their money and credit card details.
+
+3. Attack Classification and Analysis
+Looking at the mechanics of this scam, the attackers combined a few different social engineering tactics to pull it off:
+
+Voice Phishing (Vishing) via AI: Traditional vishing usually happens over a standard phone call, but here it was upgraded using artificial intelligence. The attackers fed clean audio samples from his popular cooking videos into a voice cloning model to replicate his distinct speech patterns and dialect. This vocal authenticity was the main tool used to bypass the victims' natural suspicion.
+
+Pretexting (The Fake Scenario): Pretexting is all about engineering a believable but entirely fabricated situation to trick a victim. The attackers chose a crisis, a sudden flash flood destroying a business, to provide a logical reason for why a highly successful, wealthy entrepreneur would suddenly sell off premium goods at dirt cheap prices.
+
+Pharming and Paid Ads: The scammers did not just wait for the video to spread on its own. They used spoofed profiles and paid for targeted social media advertisements to actively inject the fake video into users' feeds, redirecting unsuspecting targets away from safe platforms onto their malicious payment gateways.
+
+4. Human and Technical Vulnerability Analysis
+The Psychology behind the Scam
+The scammers successfully weaponized human behavior by pulling on specific psychological triggers:
+
+Established Trust and Reputation: Khairul Aming has spent years building a brand based on honesty and community support. Humans naturally lower their guard when a public figure they deeply respect appears to be speaking directly to them.
+
+Empathy and Urgency: By using a natural disaster crisis as the narrative, the attack targeted the audience's emotions. Fans reacted out of compassion and a desire to help, driving them to act impulsively rather than taking a second to verify the news.
+
+Scarcity: Offering highly sought after kitchen items at an extreme discount for a "limited time" forced victims to rush through the checkout process before they could spot the red flags.
+
+Technical Exposure
+This case proves that public exposure is a massive vulnerability in the age of AI. Because creators post hours of clear audio and video every week, malicious actors have a massive, free dataset to train deepfake models. Ultimately, the human element remains the weakest link; no technical security system can stop a user from typing their banking credentials into a fake website if they completely believe the person on the screen is real.
+
+5. Countermeasures and Prevention
+To defend against AI driven social engineering, we have to look past standard antivirus software and focus on better digital habits and policies:
+
+Strict Source Verification: We must adopt a habit of cross checking dramatic announcements. If an emergency sale is not posted on a creator's official, verified account (with the blue checkmark) or linked directly from their official, verified e commerce storefronts, it should immediately be flagged as a scam.
+
+Spotting Deepfake Anomalies: Users need to look closer at video content for telltale technical glitches, such as robotic voice inflections, unnatural eye blinking patterns, or visual distortion around the mouth and jawline when speaking.
+
+Platform Responsibility and Regulation: Social media networks must implement better automated detection tools to scan sponsored ads for AI generated faces and voices. Regulatory groups like the Malaysian Communications and Multimedia Commission (MCMC) should enforce strict rules requiring mandatory labels on any AI altered media used in promotions.
+
+6. Conclusion
+The Khairul Aming incident is a warning sign of how cybercrime is changing. By blending classic emotional manipulation with cutting edge deepfake technology, attackers can easily trick the human brain. This case study shows that as AI tools become more advanced, maintaining high digital literacy and verifying our sources is just as important to cybersecurity as any firewall or password policy.
+
+References
+Course Lecture Notes: Vulnerability Analysis, Social Engineering Module.
+
+Malaysian media coverage (August 2024) regarding the Khairul Aming AI voice cloning and kitchenware scam.
